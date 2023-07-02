@@ -7,5 +7,5 @@ def hello_world():
 
 print(__name__)
 if __name__ == "__main__":
-  app.run (host='172.31.196.36',debug=True)
+  app.run (host='0.0.0.0',debug=True)
   print('__name__')
